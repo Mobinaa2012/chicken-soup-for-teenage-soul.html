@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicken Soup for the Teenage Soul</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffcccb;
+            color: #333;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chicken Soup for the Teenage Soul</h1>
+        <p>Inspiration and Life Lessons for Teens</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#stories">Stories</a>
+        <a href="#authors">Authors</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="content" id="about">
+        <h2>About the Book</h2>
+        <p><em>Chicken Soup for the Teenage Soul</em> is a collection of stories, essays, and poems that offer inspiration, hope, and wisdom for teenagers. It addresses the challenges of adolescence, from relationships to self-esteem, through relatable and heartwarming tales.</p>
+    </div>
+
+    <div class="content" id="stories">
+        <h2>Featured Stories</h2>
+        <ul>
+            <li><strong>The Power of Kindness</strong> - A touching story about how a small act of kindness can make a big impact.</li>
+            <li><strong>Finding Yourself</strong> - A teenager's journey to self-discovery and confidence.</li>
+            <li><strong>Overcoming Challenges</strong> - Stories of resilience and courage.</li>
+        </ul>
+    </div>
+
+    <div class="content" id="authors">
+        <h2>About the Authors</h2>
+        <p>The book is compiled by Jack Canfield, Mark Victor Hansen, and Kimberly Kirberger. They bring together stories from teens, educators, and other inspiring individuals to create a source of encouragement for teenagers worldwide.</p>
+    </div>
+
+    <div class="content" id="contact">
+        <h2>Contact Us</h2>
+        <p>Have a story to share or want to know more? Reach out to us!</p>
+        <form>
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Chicken Soup for the Teenage Soul. All rights reserved.</p>
+    </footer>
+</body>
+</html>
